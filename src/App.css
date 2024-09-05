@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*
+{
+  margin:0px; padding:0px;
+  box-sizing: border-box;
+}
+
+ body
+ {
+  font-family: 'Inter', sans-serif;
+ }
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(5,187,115)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+ 
+}
+
+.navbar-toggler {
+  border-color: #05BB75;
+} 
+
+ .nopadding{ padding-left:0px !important; padding-right: 0px !important;}
+/**** login page css start***/
+.loginleft{ border: 0;}
+.loginleft img{ height:100vh;  background: #05BB75;}
+
+/* .loginright{height:100vh; width:62vw;   padding:20px 0px;} */
+.loginright .smclogo{width:100%; text-align:center; margin-top:20px; margin-bottom:20px;}
+
+.loginright .smclogo img{width:150px;}
+.loginleft .infobox{ position:absolute; top:40%; left:40px; width:450px;} 
+
+.loginleft .infobox .heading{  left:14%; color: #222448; font-weight: 700; font-family: 'Inter';
+  font-style: normal; }
+  .loginleft .infobox .heading  span{color: #FFFFFF;}
+.loginleft .infobox p{  left:14%;  color:#fff; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Inter';
+}
+
+.fa{ margin-top:5px; color:#6E6E6E !important; font-size: 13px;;}
+
+
+.loginright .logininfo{ width:350px;  margin-left:auto; margin-right:auto; margin-top:100px;
+} 
+.loginright .logininfo h3{display: block; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600;
+  font-size: 30px;
+  line-height: 35px; color:#090E3A;}
+
+  .loginright .logininfo p{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+ color: #6F7187;}
+
+ .loginright .logininfo label 
+ {
+   display:block;
+   font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+color: #090E3A;
+ margin-bottom:10px;
+ }
+
+ .loginright .logininfo input[type=text]
+ {
+   padding:5px 10px; border: 1px solid rgba(174, 176, 190, 0.5);
+   border-radius: 5px;
+    width:290px;
+     margin-bottom:20px;
+    
+ }
+ .loginright .logininfo .error{ color:red;  margin-bottom:20px; font-size: 13px;  font-family: 'Plus Jakarta Sans'; margin-bottom:20px; margin-top:-15px;}
+
+ .loginright .logininfo a{color:#048352}
+
+ .loginright .logininfo .officesubmit{background: #05BB75;
+  border-radius: 8px;  text-align: center; display:block; width:290px; padding:10px; color:#fff; border:none; margin-top:10px;}
+  
+  /****login page css end***/
+
+
+
+
+  /***** header component  css start***/
+
+
+  .header{ margin:0px; padding:0px;}
+  .header nav{background:#ffff; box-shadow: 0px 5px 5px rgba(82, 63, 105, 0.05);}
+  .header .userIcon{ margin-right:10px; display:inline-block}
+  .header .userName{ margin-right:10px; display:inline-block; font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+color: #424242;}
+
+.header .userlogin{ margin-right:10px; display:inline-block}
+
+.header .signstatus{margin-right:10px; display:inline-block; font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #EE4A47;
+   cursor: pointer;
+  }
+
+  /****header component css end***/
+
+
+  /*******top info  css start***/
+
+  .dashboard-wrap
+  {
+padding:30px 0px;
+background: #F8F8F8;
+  }
+
+.dashboard-wrap .total{ background: #1b85dfd1; border-radius:5px; padding:20px 15px;  display: flex;
+  flex-wrap: nowrap;}
+.dashboard-wrap .pending{ border-radius:5px; padding:20px 15px; background: #ffdf7b85;  display: flex;
+  flex-wrap: nowrap;}
+.dashboard-wrap .verified{ border-radius:5px; padding:20px 15px; background: #68e2ba73;
+ display: flex;
+  flex-wrap: nowrap;}
+.dashboard-wrap .rejected{ border-radius:5px; padding:20px 15px; background: #ffa0b08c;  display: flex;
+  flex-wrap: nowrap; }
+.dashboard-wrap .imgbox{  width:50px;   display: flex;
+  align-items: center; margin-right:10px;}
+.dashboard-wrap .imgbox img{ width:50px;}
+
+.dashboard-wrap .infobox{ width:185px;}
+
+.dashboard-wrap .infobox h5{font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: -10px;
+  line-height: 80%;
+  color: #424242;}
+
+  .dashboard-wrap .infobox h2{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top:15px;
+     margin-bottom:3px;
+    line-height: 42px;
+    color: #424242;}
+
+    .MuiTableRow-root{ margin-bottom:0px!important;
+    margin-top:0px !important;
+     border:1px rgba(66, 66, 66, 0.1)
+    }
+
+
+
+    .dashboard-wrap .infobox h6{font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+ color: #424242;}
+
+
+ /****topinfo  css close****/
+
+ /****** dashnard  css start*****/
+
+.dashboard-wrap .table-responsive{ border: 1px solid #4242421a;}
+  .table-data thead th{background: #FFFFFF;
+    border: 1px solid #4242421a; font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+   
+  }
+    .table-data tr th{
+      border: 1px solid #4242421a; font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+  color: #424242;
+      }
+
+      .css-i02g0k-MuiTableCell-root{ color:#424242 !important;}
+  .table-data td{ background: #FFFFFF;
+    border: .8px solid #4242421a; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #6E6E6E;
+  
+  }
+.gKlaqP{ padding-left:0px; padding-right:0px; margin: 0px 0px 0px 0px !important;}
+
+  .table-data input[type="text"]
+  {
+    border-radius:0px; border:transparent; background: #F8F8F8;
+  }
+
+  .has-search .form-control-feedback {
+  
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+    .table-data tr{ border:none;}
+
+    .css-1o6p3b3-MuiTableCell-root.CellLayout-cell:first-of-type { padding-left:10px !important;   border: .8px solid #4242421a; 
+      font-family: 'Roboto';}
+
+      .css-1o6p3b3-MuiTableCell-root.CellLayout-cellNoWrap {
+        padding-left:10px !important;   border: .8px solid #4242421a; 
+        font-family: 'Roboto';
+    }
+
+    .css-t9n5b3-MuiTableCell-root.TableFilterCell-cell:first-of-type {
+      padding-left: 5px !important;
+  }
+
+  .css-t9n5b3-MuiTableCell-root.TableFilterCell-cell:first-of-type svg{
+   width:20px;
+}
+
+.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root
+{
+  padding:5px !important;
+}
+
+.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root
+{
+  width:20px;
+}
+
+.TableFilterCell-flexContainer
+{
+  border: .8px solid #4242421a; 
+}
+.css-wqycw1-MuiInputBase-root-MuiInput-root.Editor-root{ margin:0px !important; padding-right: 5px !important; padding-left:5px !important}
+.MuiTableCell-root, .MuiTableCell-body, .MuiTableCell-sizeMedium, .TableCell-cell, .TableCell-cellNoWrap, .css-xhtqz8-MuiTableCell-root{ border:.8px solid #4242421a;   font-family: 'Roboto'; font-size:13px; color:#6E6E6E;}
+/* .css-1q1u3t4-MuiTableRow-root{ margin-top:5px !important; margin-bottom:5px !important; display:block !important;} */
+.css-1mrv5kl.Title-title{ color:#424242; font-family: 'Roboto';}
+.css-apqrd9-MuiTableBody-root {
+  width: 150px !important;
+  text-align: center !important;
+  border: 1px solid black !important;
+  padding: 5px !important;
+  background: #FFFFFF !important;
+  border: 1px solid rgba(66, 66, 66, 0.1) !important;
+ 
+}
+
+.css-1fw5qro-MuiPaper-root{   background:transparent !important;}
+.css-177gid-MuiTableCell-root{ padding:10px;}
+
+table:first-child{ border-spacing:-10px !important;}
+
+/* table{
+  border-collapse: separate !important;
+  border-spacing: 00px 20px !important;
+   background:transparent;
+
+} */
+
+.css-1fw5qro-MuiPaper-root{ box-shadow:none !important;}
+.css-15wwp11-MuiTableHead-root{border-spacing:-50px !important;}
+
+
+.css-wqycw1-MuiInputBase-root-MuiInput-root:before{ border-bottom:0px !important;}
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select{ margin-top:0px !important}
+.css-194a1fa-MuiSelect-select-MuiInputBase-input{margin-top:0px !important}
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select{ margin-top:-10px !important; border:1px solid #f4f4f4;}
+
+tr{
+  margin-bottom: 20px;
+}
+/**********dashboard css end*****/
+
+
+
+
+@media (max-width: 575.98px) {
+
+.loginleft{  display:none;}
+.loginright{ padding:20px;}
+.loginright .smclogo {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.loginright .smclogo img {
+  width: 150px;
+}
+
+
+.loginright .logininfo {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.dashboard-wrap .infobox h2 {
+
+  font-size: 30px;
+ 
+}
+
+.dashboard-wrap .infobox h5 {
+ 
+  font-size: 12px;
+ 
+}
+
+.loginright .logininfo h3 {
+ 
+  font-size: 25px;
+  line-height: 30px;
+
+}
+
+.header .navbar-nav{float:left;  display:flex; width:100%; margin-top:15px;}
+.header .navbar-nav span{ width:100%; display:inline; margin-bottom:10px; border-bottom:1px solid #cfcccc; padding-bottom:10px;}
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .loginleft{  display:none;}
+  .loginright .logininfo {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .header .navbar-nav span {
+    width: 100%;
+    display: inline;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cfcccc;
+    padding-bottom: 10px;
+}
+
+  .dashboard-wrap .infobox h2 {
+
+    font-size: 30px;
+   
+  }
+  
+  .dashboard-wrap .infobox h5 {
+   
+    font-size: 12px;
+   
+  }
+  
+
+
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .loginleft{  display:none;} 
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+.loginleft{ width:100% !important;}
+.loginleft img {
+  width: 100% !important;
+   height: 100vh !important;
+  background: #05BB75;}
+
+  .dashboard-wrap .infobox h2 {
+
+    font-size: 30px;
+   
+  }
+  
+  .dashboard-wrap .infobox h5 {
+   
+    font-size: 12px;
+   
+  }
+
+
+
+
+ }
+
+
+@media (min-width: 1200px) and (max-width: 1300px){ 
+  .loginleft .infobox {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 450px;
+  }
+
+  
+}
+
+  @media (min-width: 1280px) and (max-width: 1282px){ 
+    .loginleft .infobox {
+      position: absolute;
+      top: 40%;
+      left: 16%;
+      width: 450px;
+    }
+
+    .loginleft{ width:100% !important;}
+    .loginleft img {
+      width: 100% !important;
+       height: 100vh !important;
+      background: #05BB75;}
+  
+  }
+  
+
+  @media screen and (min-width: 1440px) and (max-width: 1599px) 
+  {
+    .loginleft img {
+    height: 100vh;
+    background: #05BB75;}
+
+    .loginleft .infobox {
+      position: absolute;
+      top: 40%;
+      left: 30%;
+      width: 450px;
+    }
+  }
+
+
+  
+
+
+
